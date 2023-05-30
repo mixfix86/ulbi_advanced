@@ -13,7 +13,7 @@
     // определяет какие импорты будут либо node, либо classic
     "moduleResolution": "node",
 
-    "baseUrl": ".",
+    //"baseUrl": ".",
     // если библиотека не имеет default import, лоадеры вроде ts-loader, babel-loader создают их
     // вместо такого импорта import * as React from 'react'; можно писать такой import React from 'react';
     "allowSyntheticDefaultImports" : true,
